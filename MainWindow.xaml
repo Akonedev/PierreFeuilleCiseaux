@@ -1,0 +1,17 @@
+﻿<Window x:Class="PierreFeuilleCiseaux.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PierreFeuilleCiseaux"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Pierre" Content="Pierre" HorizontalAlignment="Left" Height="70" Margin="65,147,0,0" VerticalAlignment="Top" Width="165" Background="#FFE48331" FontSize="18" Click="Pierre_Click" FontWeight="Bold"/>
+        <Button x:Name="Feuille" Content="Feuille" HorizontalAlignment="Left" Height="70" Margin="308,147,0,0" VerticalAlignment="Top" Width="164" RenderTransformOrigin="0.758,-0.285" Background="#FF0DB718" FontSize="18" Click="Feuille_Click" FontWeight="Bold"/>
+        <Button x:Name="Sciseaux" Content="Sciseaux" HorizontalAlignment="Left" Height="70" Margin="550,147,0,0" VerticalAlignment="Top" Width="165" Background="#FFEAEDEB" FontSize="18" Click="Sciseaux_Click" FontWeight="Bold"/>
+        <Button x:Name="Jouer" Content="Jouer" HorizontalAlignment="Center" Height="70" Margin="0,309,0,0" VerticalAlignment="Top" Width="165" Background="#FFA3C6D8" FontSize="18" FontWeight="Bold" Click="Jouer_Click"/>
+        <TextBox x:Name="afficheResultat" HorizontalAlignment="Left" Height="65" Margin="65,34,0,0" TextWrapping="Wrap" Text="Cliquez sur un bouton pour faire votre choix" VerticalAlignment="Top" Width="650" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFBAFBAC" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
